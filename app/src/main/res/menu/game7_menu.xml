@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="menu_game7_reload"
+        android:icon="@drawable/ic_refresh_blu"
+        app:showAsAction="always"
+        android:id="@+id/menu_game7_reload" />
+    <item android:id="@+id/menu_game7_my_home"
+        android:title="My home"/>
+    <item android:id="@+id/menu_game7_infor"
+        android:title="Thông tin game"/>
+    <item android:id="@+id/menu_game7_exit"
+        android:title="Thoát"/>
+</menu>

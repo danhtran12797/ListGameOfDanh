@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_game5_reload"
+        android:title="reload"
+        android:iconTint="#fff"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_blu"/>
+    <item android:id="@+id/menu_game5_my_home"
+        android:title="My home"/>
+    <item android:id="@+id/menu_game5_infor"
+        android:title="Thông tin game"/>
+    <item android:id="@+id/menu_game5_max_core"
+        android:title="Điểm số cao nhất"/>
+    <item android:id="@+id/menu_game5_exit"
+        android:title="Thoát"/>
+</menu>

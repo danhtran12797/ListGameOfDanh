@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_game9_my_home"
+        android:title="My home"/>
+    <item android:id="@+id/menu_game9_infor"
+        android:title="Thông tin game"/>
+    <item android:id="@+id/menu_game9_exit"
+        android:title="Thoát"/>
+</menu>

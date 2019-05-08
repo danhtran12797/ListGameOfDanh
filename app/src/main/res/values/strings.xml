@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">THD Games</string>
+
+    <string-array name="arrCards">
+        <item>clubs_1</item>
+        <item>clubs_2</item>
+        <item>clubs_3</item>
+        <item>clubs_4</item>
+        <item>clubs_5</item>
+        <item>clubs_6</item>
+        <item>clubs_7</item>
+        <item>clubs_8</item>
+        <item>clubs_9</item>
+        <item>clubs_10</item>
+        <item>clubs_11</item>
+        <item>clubs_12</item>
+        <item>clubs_13</item>
+
+        <item>spades_1</item>
+        <item>spades_2</item>
+        <item>spades_3</item>
+        <item>spades_4</item>
+        <item>spades_5</item>
+        <item>spades_6</item>
+        <item>spades_7</item>
+        <item>spades_8</item>
+        <item>spades_9</item>
+        <item>spades_10</item>
+        <item>spades_11</item>
+        <item>spades_12</item>
+        <item>spades_13</item>
+
+        <item>hearts_1</item>
+        <item>hearts_2</item>
+        <item>hearts_3</item>
+        <item>hearts_4</item>
+        <item>hearts_5</item>
+        <item>hearts_6</item>
+        <item>hearts_7</item>
+        <item>hearts_8</item>
+        <item>hearts_9</item>
+        <item>hearts_10</item>
+        <item>hearts_11</item>
+        <item>hearts_12</item>
+        <item>hearts_13</item>
+
+        <item>diamons_1</item>
+        <item>diamons_2</item>
+        <item>diamons_3</item>
+        <item>diamons_4</item>
+        <item>diamons_5</item>
+        <item>diamons_6</item>
+        <item>diamons_7</item>
+        <item>diamons_8</item>
+        <item>diamons_9</item>
+        <item>diamons_10</item>
+        <item>diamons_11</item>
+        <item>diamons_12</item>
+        <item>diamons_13</item>
+    </string-array>
+    <string-array name="list">
+        <item>chim1</item>
+        <item>chim2</item>
+        <item>chim3</item>
+        <item>chim4</item>
+        <item>chim5</item>
+        <item>chim6</item>
+        <item>chim7</item>
+        <item>chim8</item>
+        <item>chim9</item>
+        <item>chim10</item>
+        <item>chim11</item>
+        <item>chim12</item>
+        <item>chim13</item>
+        <item>chim14</item>
+        <item>chim15</item>
+        <item>chim16</item>
+        <item>chim17</item>
+        <item>chim18</item>
+    </string-array>
+
+    <string-array name="MODE">
+        <item>Mới chơi</item>
+        <item>Quá dễ</item>
+        <item>Dễ</item>
+        <item>Hơi dễ</item>
+        <item>Bình thường</item>
+        <item>Trung bình</item>
+        <item>Hơi khó</item>
+        <item>Khó</item>
+        <item>Max khó</item>
+        <item>Siêu cấp</item>
+        <item>Vô cực</item>
+    </string-array>
+
+    <string-array name="name_games">
+        <item>Game đua xe</item>
+        <item>Game chọn hình</item>
+        <item>Game đếm số chim</item>
+        <item>Game toán học</item>
+        <item>Game nhớ màu</item>
+        <item>Game lật hình 1/2</item>
+        <item>Game bầu cua</item>
+        <item>Game tìm số</item>
+        <item>Game bài đếm nút</item>
+        <item>Game xếp hình</item>
+        <item>SUDOKU</item>
+    </string-array>
+</resources>

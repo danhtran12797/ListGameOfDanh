@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đặt cược"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHinhDatCuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/chim1" />
+
+        <RadioGroup
+            android:id="@+id/radGroup"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rad1Do"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text=" 1 Đô la" />
+
+            <RadioButton
+                android:id="@+id/rad2Do"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2 Đô la" />
+
+            <RadioButton
+                android:id="@+id/rad5Do"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" 5 Đô la" />
+
+            <RadioButton
+                android:id="@+id/rad10Do"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" 10 Đô la" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="cancel" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>

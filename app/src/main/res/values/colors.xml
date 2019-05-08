@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00574B</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#6c6c6c</color>
+
+    <!--008577-->
+    <!--00574B-->
+
+    <!--game 11-->
+    <color name="colorArea">#a6e2ff</color>
+    <color name="colorCell">#2dbaff</color>
+    <color name="colorError">#ff545a</color>
+</resources>

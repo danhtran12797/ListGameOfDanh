@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_game11"
+        app:title="Game đua xe rùa"
+        app:titleTextColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:background="@mipmap/background_1_edit"
+        android:layout_below="@id/toolbar_game11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/checkBox1"
+            android:layout_marginBottom="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/checkBox2"
+            android:layout_marginBottom="15dp" />
+
+        <SeekBar
+            android:id="@+id/seerBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/checkBox1"
+            android:layout_toRightOf="@id/checkBox1"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@mipmap/giphy2" />
+
+        <SeekBar
+            android:id="@+id/seerBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/seerBar1"
+            android:layout_toEndOf="@id/checkBox1"
+            android:layout_toRightOf="@id/checkBox1"
+            android:progressDrawable="@android:color/transparent"
+            android:saveEnabled="false"
+            android:thumb="@mipmap/car3" />
+
+        <SeekBar
+            android:id="@+id/seerBar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/seerBar2"
+            android:layout_toEndOf="@id/checkBox1"
+            android:layout_toRightOf="@id/checkBox1"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:saveEnabled="false"
+            android:thumb="@mipmap/tumblr" />
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="113dp"
+            android:layout_height="77dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="TODO"
+            android:src="@mipmap/play1" />
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_game11"
+        android:layout_marginTop="20dp"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@mipmap/phuthuy" />
+    <TextView
+        android:id="@+id/txtDiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_game11"
+        android:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+</RelativeLayout>

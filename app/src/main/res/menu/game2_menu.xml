@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_game2_reload"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_blu"
+        android:title="Reload"/>
+    <item android:id="@+id/menu_game2_my_home"
+        android:title="My home"/>
+    <item android:id="@+id/menu_game2_infor"
+        android:title="Thông tin game"/>
+    <item android:id="@+id/menu_game2_exit"
+        android:title="Thoát"/>
+
+</menu>
